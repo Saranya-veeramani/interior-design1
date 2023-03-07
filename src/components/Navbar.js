@@ -1,30 +1,33 @@
 import React from 'react'
-import Logo from './pages/images/Logo.jpg'
-//import './navbar.css'
-import Vector from './pages/images/Vector.jpg'
-    const Navbar = () =>  {
-    return (
-      <div className='navbar'>
-          <div className='container'>
-          <h1><span> <img src={Logo} alt="Logo" />Interno</span></h1>
-          <button className='btn'>
-              <ul className='nav-menu'>
-                  <li><a href='#'>Home</a></li>
-                  <li><a href='#'>Services</a></li>
-                  <li><a href='#'>Contact Us</a></li>
-             </ul> </button>
+import {Link} from 'react-router-dom'
+import logo from '../asserts/images/Logo.jpg'
+import './Navbar.css'
+const Navbar = () => {
   
-             <div className='Search'></div>
-              
-             <img src={Vector} alt="Vector" />
-             </div>
-          
-          </div>
-        
-    
-    )
-  }
-  
-  export default Navbar
 
-    
+return (
+    <header>
+    <div className="container">
+      <div className="logo"><h1><span> <img src={logo} alt="Logo" />Interno</span></h1>
+            
+      </div>
+      <nav>
+        <ul className="navbar">
+          <li><Link to="/">Home</Link>
+          </li>
+          <li><Link to ='/Services'>Services</Link></li>
+          <li><Link to="/Contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+      <div className="search">
+        <input type="text" placeholder="Search..."/>
+        <button><i class="fa fa-search"></i></button>
+      </div>
+    </div>
+  </header>
+);
+}
+
+
+export default Navbar

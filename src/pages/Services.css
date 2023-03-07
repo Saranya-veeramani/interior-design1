@@ -1,0 +1,33 @@
+.bg-image {
+      position: relative;
+    top: -1100px; /* adjust this value to position the image */
+      padding:
+       0 0 0 0px; /* add padding to the container to give space around the image */
+      margin-left: 0;
+     display: block;
+          justify-content: center;
+     align-items: center;
+     height: 70%;
+     width: -80%;
+         }
+         .bg-image img{
+          margin :0;
+         }
+       
+
+  .textonimage {  
+    
+        position: absolute;
+      top: 70%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      border: none;
+      text-align: center;
+      height: fit-content;
+    width: 15%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
+   
+    

@@ -1,0 +1,41 @@
+Footer-container{
+  background-color: transparent;
+  padding: 20px;
+  align-items: center;
+  padding: 0%;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+   
+  }
+
+      .Lists1  {
+        display: flex;
+        flex-direction:column ;
+        margin-right: 755px; /* add some spacing between the list items */
+        transform: translateX(-300%);
+        list-style: none;
+        right: -30px;
+        position: absolute;
+        top: 2700px;
+        gap: 10px;
+        
+      
+      }
+      .Lists ul{
+        list-style: none;
+        gap: 10px;
+
+      }
+      .Lists2 ul {
+        display: flex;
+      flex-direction: column;
+        margin-right: 20px; /* add some spacing between the list items */
+        transform: translateX(-300%);
+        list-style: none;
+        right: -30px;
+        position: absolute;
+        top: 3000px;
+        gap: 10px;
+      }

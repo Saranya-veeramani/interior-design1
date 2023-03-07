@@ -1,0 +1,34 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.projIntRetail {
+  display: inline-block;
+}
+  
+  .col {
+    flex: 1;
+    margin: 0 15px;
+  }
+  
+  .col h2 {
+    font-size: 24px;
+    margin-bottom: 110px;
+  }
+  
+  .col p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .col a {
+    color: blue;
+    font-size: 16px;
+  }
+  .p{
+    display: flex;
+    margin-top: 550px;
+  }
